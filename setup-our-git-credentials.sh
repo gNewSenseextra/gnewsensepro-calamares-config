@@ -1,15 +1,8 @@
 #!/bin/bash
 #set -e
 ##################################################################################################################
-# Author 	: Erik Dubois
-# Website   : https://www.erikdubois.be
-# Website   : https://www.alci.online
-# Website	: https://www.arcolinux.info
-# Website	: https://www.arcolinux.com
-# Website	: https://www.arcolinuxd.com
-# Website	: https://www.arcolinuxb.com
-# Website	: https://www.arcolinuxiso.com
-# Website	: https://www.arcolinuxforum.com
+# Author 	: Namir Taajwar Mahmud
+# Website   : https://www.gnewsense.blogspot.comm
 ##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
@@ -55,7 +48,7 @@ echo
 
 project=$(basename `pwd`)
 githubdir=$(basename $(dirname "$PWD"))
-githubdir="arconetpro"
+githubdir="gnewsenseextra"
 echo "-----------------------------------------------------------------------------"
 echo "this is project https://github.com/$githubdir/$project"
 echo "-----------------------------------------------------------------------------"
