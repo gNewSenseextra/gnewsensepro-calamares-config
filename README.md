@@ -1,1 +1,0 @@
-# gnewsensepro-calamares-config
