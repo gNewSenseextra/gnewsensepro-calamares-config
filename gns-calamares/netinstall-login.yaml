@@ -1,0 +1,45 @@
+- name: "Login Manager: Sddm"
+  description: "Installs sddm - sddm is already installed"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - sddm
+    - arcolinux-sddm-futuristic-git
+    - arcolinux-sddm-materia-git
+    - arcolinux-sddm-simplicity-git
+    - arcolinux-sddm-slice-git
+    - arcolinux-sddm-sugar-candy-git
+    - arcolinux-sddm-urbanlifestyle-git
+- name: "Login Manager: Lightdm"
+  description: "Installs lightdm"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - lightdm
+    - lightdm-gtk-greeter
+    - lightdm-gtk-greeter-settings
+    - lightdm-slick-greeter
+    - onboard
+- name: "Login Manager: Gdm"
+  description: "Installs gdm"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - gdm
+- name: "Login Manager: Lxdm"
+  description: "Installs lxdm"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - lxdm
+- name: "Login Manager: Ly"
+  description: "Installs ly"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - ly
